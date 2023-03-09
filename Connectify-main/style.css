@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'SpotifyTitleFont';
+    src: url(fonts/Spotify-Font/GothamBold.ttf);
+}
+
+*{
+    background: #1a1a1d;
+}
+
+.title {
+    text-align: center;
+    color: #1DB954;
+    font-size: 60px;
+    font-family: SpotifyTitleFont;
+}
+
+.users{
+    text-align: center;
+}
+
+.usersTextBox{
+    width: 30%;
+    line-height: 30%;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+
+.usersTextBox:focus{
+    color:white;
+}
+
